@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(167, 167, 167);
+    margin: 0 auto;
+}
+
+.main .left {
+    width: 200px;
+    height: 800px;
+    background-color: salmon;
+    float: left;
+}
+
+.main .left a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.main .left a:hover {
+    background: url(../images/buttom.gif);
+    color: red;
+    font-weight: 600;
+}
+
+.main .right {
+    width: 700px;
+    height: 800px;
+    background-color: #f3f3f3;
+    float: right;
+}
+
+.main .right li {
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    background-color: seagreen;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.main .right li:hover {
+    transform: scale(1.1);
+    transition: all .3;
+    box-shadow: 2px 2px rgb(199, 199, 199);
+}
